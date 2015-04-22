@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<root>
+        <item>
+                <name>Swap ctrl+p and cmd+p</name>
+                <identifier>private.swap_ctrl_p_and_cmd_p</identifier>
+                <autogen>--KeyToKey-- KeyCode::P, VK_COMMAND, KeyCode::P, VK_CONTROL</autogen>
+        </item>
+        <item>
+                <name>Swap ctrl+n and cmd+shift+n</name>
+                <identifier>private.swap_ctrl_n_and_cmd_shift_n</identifier>
+                <autogen>--KeyToKey-- KeyCode::N, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L, KeyCode::N, VK_COMMAND</autogen>
+        </item>
+        <item>
+                <name>Swap ctrl+n and cmd+n</name>
+                <identifier>private.swap_ctrl_n_and_cmd_n</identifier>
+                <autogen>--KeyToKey-- KeyCode::N, VK_COMMAND, KeyCode::N, VK_CONTROL</autogen>
+        </item>
+        <item>
+                <name>Swap ctrl+b and cmd+b</name>
+                <identifier>private.swap_ctrl_b_and_cmd_b</identifier>
+                <autogen>--KeyToKey-- KeyCode::B, VK_COMMAND, KeyCode::B, VK_CONTROL</autogen>
+        </item>
+        <item>
+                <name>Swap ctrl+f and cmd+f</name>
+                <only>TERMINAL</only>
+                <identifier>private.swap_ctrl_f_and_cmd_f</identifier>
+                <autogen>--KeyToKey-- KeyCode::F, VK_COMMAND, KeyCode::F, VK_CONTROL</autogen>
+        </item>
+        <item>
+		<name>Swap ctrl+h and command+left</name>
+		<identifier>private.swap_ctrl_h_and_command_left</identifier>
+                <autogen>--KeyToKey-- KeyCode::H, VK_COMMAND, KeyCode::CURSOR_LEFT, VK_COMMAND</autogen>
+        </item>
+        <item>
+		<name>Swap ctrl+w and command+w</name>
+                <only>TERMINAL</only>
+		<identifier>private.swap_ctrl_w_and_command_w</identifier>
+                <autogen>--KeyToKey-- KeyCode::W, VK_COMMAND, KeyCode::W, VK_CONTROL</autogen>
+        </item>
+        <item>
+		<name>Swap ctrl+a and command+a</name>
+                <only>TERMINAL</only>
+		<identifier>private.swap_ctrl_a_and_command_a</identifier>
+                <autogen>--KeyToKey-- KeyCode::A, VK_COMMAND, KeyCode::A, VK_CONTROL</autogen>
+        </item>
+        <item>
+		<name>Swap ctrl+e and command+e</name>
+                <only>TERMINAL</only>
+		<identifier>private.swap_ctrl_e_and_command_e</identifier>
+                <autogen>--KeyToKey-- KeyCode::E, VK_COMMAND, KeyCode::E, VK_CONTROL</autogen>
+        </item>
+        <item>
+		<name>Swap ctrl+k and command+k</name>
+                <only>TERMINAL</only>
+		<identifier>private.swap_ctrl_k_and_command_k</identifier>
+                <autogen>--KeyToKey-- KeyCode::K, VK_COMMAND, KeyCode::K, VK_CONTROL</autogen>
+        </item>
+        <item>
+		<name>Swap ctrl+z and command+z</name>
+                <only>TERMINAL</only>
+		<identifier>private.swap_ctrl_z_and_command_z</identifier>
+                <autogen>--KeyToKey-- KeyCode::Z, VK_COMMAND, KeyCode::Z, VK_CONTROL</autogen>
+        </item>
+</root>
