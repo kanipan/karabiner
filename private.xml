@@ -1,29 +1,29 @@
 <?xml version="1.0"?>
 <root>
         <item>
-                <name>Swap ctrl+p and cmd+p</name>
-                <identifier>private.swap_ctrl_p_and_cmd_p</identifier>
+                <name>Swap ctrl+p and command+p</name>
+                <identifier>private.swap_ctrl_p_and_command_p</identifier>
                 <autogen>--KeyToKey-- KeyCode::P, VK_COMMAND, KeyCode::P, VK_CONTROL</autogen>
         </item>
         <item>
-                <name>Swap ctrl+n and cmd+shift+n</name>
-                <identifier>private.swap_ctrl_n_and_cmd_shift_n</identifier>
+                <name>Swap ctrl+n and command+shift+n</name>
+                <identifier>private.swap_ctrl_n_and_command_shift_n</identifier>
                 <autogen>--KeyToKey-- KeyCode::N, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L, KeyCode::N, VK_COMMAND</autogen>
         </item>
         <item>
-                <name>Swap ctrl+n and cmd+n</name>
-                <identifier>private.swap_ctrl_n_and_cmd_n</identifier>
+                <name>Swap ctrl+n and command+n</name>
+                <identifier>private.swap_ctrl_n_and_command_n</identifier>
                 <autogen>--KeyToKey-- KeyCode::N, VK_COMMAND, KeyCode::N, VK_CONTROL</autogen>
         </item>
         <item>
-                <name>Swap ctrl+b and cmd+b</name>
-                <identifier>private.swap_ctrl_b_and_cmd_b</identifier>
+                <name>Swap ctrl+b and command+b</name>
+                <identifier>private.swap_ctrl_b_and_command_b</identifier>
                 <autogen>--KeyToKey-- KeyCode::B, VK_COMMAND, KeyCode::B, VK_CONTROL</autogen>
         </item>
         <item>
-                <name>Swap ctrl+f and cmd+f</name>
+                <name>Swap ctrl+f and command+f</name>
                 <only>TERMINAL</only>
-                <identifier>private.swap_ctrl_f_and_cmd_f</identifier>
+                <identifier>private.swap_ctrl_f_and_command_f</identifier>
                 <autogen>--KeyToKey-- KeyCode::F, VK_COMMAND, KeyCode::F, VK_CONTROL</autogen>
         </item>
         <item>
