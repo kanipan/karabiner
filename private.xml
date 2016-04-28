@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <root>
+        <appdef>
+                <appname>MacVIM</appname>
+                <equal>org.vim.MacVim</equal>
+        </appdef>
         <item>
                 <name>Swap ctrl+p and command+p</name>
                 <only>TERMINAL</only>
@@ -89,5 +93,11 @@
                 <only>TERMINAL</only>
                 <identifier>private.swap_command_shift_[_and_command_semicolon</identifier>
                 <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::COMMAND_L, KeyCode::JIS_BRACKET_RIGHT, ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L</autogen>
+        </item>
+        <item>
+                <name>Swap ctrl+w and command+w on MacVim</name>
+                <only>MacVIM</only>
+                <identifier>private.swap_ctrl_w_and_command_w_on_macvim</identifier>
+                <autogen>--KeyToKey-- KeyCode::W, VK_COMMAND, KeyCode::W, VK_CONTROL</autogen>
         </item>
 </root>
