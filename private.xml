@@ -4,6 +4,10 @@
                 <appname>MacVIM</appname>
                 <equal>org.vim.MacVim</equal>
         </appdef>
+        <appdef>
+                <appname>CHROME</appname>
+                <equal>com.google.Chrome</equal>
+        </appdef>
         <item>
                 <name>Swap ctrl+p and command+p</name>
                 <only>TERMINAL</only>
@@ -99,5 +103,17 @@
                 <only>MacVIM</only>
                 <identifier>private.swap_ctrl_w_and_command_w_on_macvim</identifier>
                 <autogen>--KeyToKey-- KeyCode::W, VK_COMMAND, KeyCode::W, VK_CONTROL</autogen>
+        </item>
+        <item>
+                <name>Swap ctrl+j and command+j on CHROME</name>
+                <only>CHROME</only>
+                <identifier>private.swap_ctrl_j_and_command_j_on_chrome</identifier>
+                <autogen>--KeyToKey-- KeyCode::J, VK_COMMAND, KeyCode::J, VK_CONTROL</autogen>
+        </item>
+        <item>
+                <name>Swap ctrl+semicolon and command+semicolon on CHROME</name>
+                <only>CHROME</only>
+                <identifier>private.swap_ctrl_semicolon_and_command_semicolon_on_chrome</identifier>
+                <autogen>--KeyToKey-- KeyCode::SEMICOLON, VK_COMMAND, KeyCode::SEMICOLON, VK_CONTROL</autogen>
         </item>
 </root>
